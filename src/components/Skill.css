@@ -1,0 +1,30 @@
+.Skill {
+  color: white;
+  background-color: grey;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.Skill_BLUE {
+  background-color: #2f74c0;
+}
+
+.Skill_GREEN {
+  background-color: #83b355;
+}
+
+.Skill_YELLOW {
+  background-color: #efd81d;
+}
+
+.Skill_RED {
+  background-color: #d13d35;
+}
+
+.Skill_MINT {
+  background-color: #39bdf8;
+}
+
+.Skill_ORANGE {
+  background-color: #f79b26;
+}

@@ -1,0 +1,35 @@
+.Project {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 29px 0px;
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+}
+
+.Project:hover {
+  box-shadow: var(--green) 0px 0px 29px 0px;
+}
+
+.Project .title {
+  font-size: 30px;
+}
+
+.Project .duration {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.Project .team-size {
+  font-size: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  padding-bottom: 10px;
+}
+
+.Project .summary {
+  font-size: 20px;
+}
+
+.Project .tags {
+  color: var(--blue);
+}

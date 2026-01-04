@@ -1,0 +1,18 @@
+.InfoItem {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: var(--blue);
+  width: 400px;
+}
+
+.InfoItem .info-icon {
+  font-size: 50px;
+}
+
+.InfoItem .info-text {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  font-size: 30px;
+}

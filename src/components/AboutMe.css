@@ -1,0 +1,23 @@
+.AboutMe {
+  background-color: var(--ivory);
+  padding: 20px 0;
+}
+
+.AboutMe .about-me-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 1400px;
+}
+
+.AboutMe .about-me-container .profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+}
+
+.AboutMe .profile-info .info-column {
+  display: flex;
+  justify-content: space-between;
+}

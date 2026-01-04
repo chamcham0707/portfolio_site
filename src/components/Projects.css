@@ -1,0 +1,16 @@
+.Projects {
+  background-color: var(--white);
+  padding: 20px 0;
+}
+
+.Projects .projects-container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.Projects .projects-container .project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+}

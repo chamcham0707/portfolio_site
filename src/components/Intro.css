@@ -1,0 +1,48 @@
+.Intro {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: url("../assets/intro_background_img.webp") no-repeat center /
+    cover;
+}
+
+.Intro::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--blue);
+  opacity: 0.6;
+  z-index: 0;
+}
+
+.Intro > * {
+  position: relative;
+  z-index: 1;
+}
+
+.Intro .intro-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Intro .name {
+  margin: 0;
+  font-size: 120px;
+  color: white;
+  letter-spacing: 1cm;
+}
+
+.Intro .role {
+  margin: 0;
+  font-size: 60px;
+  letter-spacing: 1cm;
+  color: white;
+}
+
+.Intro .intro-container > p {
+  font-size: 35px;
+  color: var(--ivory);
+}
