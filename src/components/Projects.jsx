@@ -1,10 +1,10 @@
-import Project from "./Project";
+import ProjectCard from "./ProjectCard";
 import "./Projects.css";
 import Title from "./Title";
 
 const projects = [
   {
-    id: 1,
+    name: "livealone",
     title: "실시간 영상 송출 라이브 커머스 사이트",
     teamSize: 5,
     duration: "2024.07 ~ 2024.08 (1개월)",
@@ -28,10 +28,11 @@ const projects = [
       "AWS",
       "Docker",
       "Docker Compose",
+      "Kafka",
     ],
   },
   {
-    id: 2,
+    name: "random-defense",
     title: "Google Play Store 게임 서비스 출시",
     teamSize: 6,
     duration: "2024.06 ~ 2024.08 (2개월)",
@@ -43,7 +44,7 @@ const projects = [
     tags: ["C#", "Unity"],
   },
   {
-    id: 3,
+    name: "co-bot",
     title: "IOCP를 활용한 실시간 멀티 협동 게임",
     teamSize: 3,
     duration: "2024.01 ~ 2024.08 (8개월)",
@@ -62,8 +63,9 @@ const Projects = () => {
         <Title text={"Projects"} />
         <div className="project-list">
           {projects.map((project) => (
-            <Project
-              key={project.key}
+            <ProjectCard
+              key={project.id}
+              id={project.id}
               title={project.title}
               teamSize={project.teamSize}
               duration={project.duration}

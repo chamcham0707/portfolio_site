@@ -1,8 +1,9 @@
-import "./Project.css";
+import { Link } from "react-router-dom";
+import "./ProjectCard.css";
 
-const Project = ({ title, teamSize, duration, summary, tags }) => {
+const ProjectCard = ({ name, title, teamSize, duration, summary, tags }) => {
   return (
-    <div className="Project">
+    <Link className="Project" to={`/project/${name}`}>
       <div className="title">{title}</div>
       <div className="duration">{duration}</div>
       <div className="team-size">개발 인원: {teamSize} 명</div>
@@ -18,8 +19,8 @@ const Project = ({ title, teamSize, duration, summary, tags }) => {
           </span>
         ))}
       </div>
-    </div>
+    </Link>
   );
 };
 
-export default Project;
+export default ProjectCard;

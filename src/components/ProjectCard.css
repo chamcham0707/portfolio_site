@@ -8,7 +8,7 @@
 }
 
 .Project:hover {
-  box-shadow: var(--green) 0px 0px 29px 0px;
+  box-shadow: var(--blue) 0px 0px 29px 0px;
 }
 
 .Project .title {
