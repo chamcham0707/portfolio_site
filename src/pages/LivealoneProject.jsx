@@ -1,7 +1,7 @@
 const LivealoneProject = () => {
   return (
     <div className="LivealoneProject">
-      <div></div>
+      <div>live alone project</div>
     </div>
   );
 };

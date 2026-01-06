@@ -64,8 +64,8 @@ const Projects = () => {
         <div className="project-list">
           {projects.map((project) => (
             <ProjectCard
-              key={project.id}
-              id={project.id}
+              key={project.name}
+              name={project.name}
               title={project.title}
               teamSize={project.teamSize}
               duration={project.duration}
