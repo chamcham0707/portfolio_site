@@ -9,13 +9,13 @@ const ExternalLinks = () => {
         <Title text={"Links"} color={"WHITE"} />
         <div className="external-link-list">
           <ExternalLink
-            icon={<i class="fa-brands fa-github"></i>}
+            icon={<i className="fa-brands fa-github"></i>}
             text={" GitHub"}
             link={"https://github.com/chamcham0707?tab=repositories"}
             description={"소스 코드 저장소"}
           />
           <ExternalLink
-            icon={<i class="fa-solid fa-blog"></i>}
+            icon={<i className="fa-solid fa-blog"></i>}
             text={" Blog"}
             link={"https://chaemin0707.tistory.com/"}
             description={"TIL 등 개발 블로그"}
